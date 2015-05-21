@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jerry/kicad/projects/sensorNode/sensorNode.sch</source>
+    <date>Wed 20 May 2015 07:26:41 PM PDT</date>
+    <tool>Eeschema 0.201505191917+5670~23~ubuntu14.04.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Sensor Node</title>
+        <company>RockingD Labs</company>
+        <rev/>
+        <date/>
+        <source>sensorNode.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ESP-12</value>
+      <footprint>ESP-12_2mm</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="ESP8266" part="ESP-12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553B1129</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>3v</value>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553B11A0</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553B1531</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553B1579</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553B15EE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553B198B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553B1C8F</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Reset</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>554AE71A</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>PRGM</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>554AF275</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Serial I/O</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>554AF41B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DS18B20</value>
+      <footprint>MODULE</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="DS18B20" part="DS18B20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55558175</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555584E5</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ISL29035</value>
+      <libsource lib="ISL29035" part="ISL29035"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558F488</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>PIR</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558F881</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55590208</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55590319</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55590353</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DS18B20" part="DS18B20">
+      <description>Programmable Resolution 1-Wire Digital Thermometer, Maxim</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS18B20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_out"/>
+        <pin num="2" name="DQ" type="openCol"/>
+        <pin num="3" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ISL29035" part="ISL29035">
+      <description>Integrated Digital Light Sensor with Interrupt, Intersil</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/fn83/fn8371.pdf</docs>
+      <footprints>
+        <fp>ISL29035-DFN-6-1.5x1.6mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISL29035</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="NC" type="unspc"/>
+        <pin num="4" name="INT" type="openCol"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="SDA" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP8266" part="ESP-12">
+      <aliases>
+        <alias>ESP-07v2</alias>
+      </aliases>
+      <description>ESP8622 ESP-12 module, 16 pins, 2mm, PCB antenna</description>
+      <docs>http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/</docs>
+      <footprints>
+        <fp>ESP-07*</fp>
+        <fp>ESP-12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REST" type="input"/>
+        <pin num="2" name="ADC" type="passive"/>
+        <pin num="3" name="CH_PD" type="input"/>
+        <pin num="4" name="GPIO16" type="BiDi"/>
+        <pin num="5" name="GPIO14" type="BiDi"/>
+        <pin num="6" name="GPIO12" type="BiDi"/>
+        <pin num="7" name="GPIO13" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO15" type="BiDi"/>
+        <pin num="11" name="GPIO2" type="BiDi"/>
+        <pin num="12" name="GPIO0" type="BiDi"/>
+        <pin num="13" name="GPIO5" type="BiDi"/>
+        <pin num="14" name="GPIO4" type="BiDi"/>
+        <pin num="15" name="RXD" type="input"/>
+        <pin num="16" name="TXD" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="DS18B20">
+      <uri>/home/jerry/kicad/library/DS18B20.lib</uri>
+    </library>
+    <library logical="ESP8266">
+      <uri>/home/jerry/kicad/library/kicad-ESP8266/ESP8266.lib</uri>
+    </library>
+    <library logical="ISL29035">
+      <uri>/home/jerry/kicad/library/ISL29035.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P3" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="2" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="3" name="VCC">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R8-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="7" name="/PIR-Repeat">
+      <node ref="U1" pin="6"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="8" name="/PIR-Motion">
+      <node ref="U1" pin="7"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R7-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="10" name="/I2C_SCL">
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="11" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="12" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="13" name="Net-(P3-Pad2)">
+      <node ref="U1" pin="15"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="14" name="Net-(P3-Pad1)">
+      <node ref="P3" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="15" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="R3" pin="2"/>
+    </net>
+  </nets>
+</export>
