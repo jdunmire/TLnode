@@ -1,4 +1,4 @@
-update=Fri 15 May 2015 08:12:22 PM PDT
+update=Sat 23 May 2015 05:26:27 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -11,19 +11,6 @@ LibDir=
 NetType=0
 [cvpcb/libraries]
 EquName1=devcms
-[schematic_editor]
-version=1
-PageLayoutDescrFile=rockingdlabs_letter_with_logo.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=rockingdlabs_letter_with_logo.kicad_wks
@@ -83,3 +70,13 @@ LibName30=kicad-ESP8266/ESP8266
 LibName31=DS18B20
 LibName32=ISL29035
 LibName33=DS7505
+[schematic_editor]
+version=1
+PageLayoutDescrFile=rockingdlabs_letter_with_logo.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name sensorNode)(type KiCad)(uri /home/jerry/kicad/modules/sensorNode.pretty)(options "")(descr ""))
+)
