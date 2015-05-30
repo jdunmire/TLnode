@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by Cvpcb 0.201505262310+5684~23~ubuntu14.04.1-product   date = Sat 30 May 2015 03:29:11 PM PDT
+
+BeginCmp
+TimeStamp = /553B11A0;
+Reference = BT1;
+ValeurCmp = 3v;
+IdModule  = Battery_Holders:BA2AAPC;
+EndCmp
+
+BeginCmp
+TimeStamp = /553B198B;
+Reference = C1;
+ValeurCmp = 0.1 uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55612960;
+Reference = C2;
+ValeurCmp = 0.1 uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A552C;
+Reference = NT1;
+ValeurCmp = Net-Tie-2;
+IdModule  = Oddities:NetTie-I_Connected_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A55D0;
+Reference = NT2;
+ValeurCmp = Net-Tie-2;
+IdModule  = Oddities:NetTie-I_Connected_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558F881;
+Reference = P1;
+ValeurCmp = PIR;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /554AF275;
+Reference = P2;
+ValeurCmp = PRGM;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /554AF41B;
+Reference = P3;
+ValeurCmp = Serial I/O;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /553B1531;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553B15EE;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553B1579;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553B1C8F;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55590353;
+Reference = R5;
+ValeurCmp = 4.7k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55590319;
+Reference = R6;
+ValeurCmp = 4.7k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55590208;
+Reference = R7;
+ValeurCmp = 4.7k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555584E5;
+Reference = R8;
+ValeurCmp = 4.7k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554AE71A;
+Reference = SW1;
+ValeurCmp = Reset;
+IdModule  = Buttons_Switches_SMD:SW_SPST_E-Switch_TL3302BF180QG;
+EndCmp
+
+BeginCmp
+TimeStamp = /553B1129;
+Reference = U1;
+ValeurCmp = ESP-12;
+IdModule  = ESP8266:ESP-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /55558175;
+Reference = U2;
+ValeurCmp = DS18B20;
+IdModule  = Housings_TO-92:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558F488;
+Reference = U3;
+ValeurCmp = ISL29035;
+IdModule  = sensorNode:DFN-6_1.5x1.6mm_Pitch0.5mm;
+EndCmp
+
+EndListe
