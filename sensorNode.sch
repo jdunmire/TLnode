@@ -219,7 +219,7 @@ U 1 1 554AE71A
 P 3000 5050
 F 0 "SW1" H 3150 5160 50  0000 C CNN
 F 1 "Reset" H 3000 4970 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3000 5050 60  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_E-Switch_TL3302BF180QG" H 3000 5050 60  0001 C CNN
 F 3 "" H 3000 5050 60  0000 C CNN
 	1    3000 5050
 	1    0    0    -1  
@@ -319,10 +319,6 @@ Wire Wire Line
 Connection ~ 4800 3550
 Connection ~ 6100 4600
 Connection ~ 6100 5500
-Wire Wire Line
-	7250 4200 5700 4200
-Wire Wire Line
-	7250 4300 5700 4300
 $Comp
 L GND #PWR010
 U 1 1 554AF659
@@ -433,7 +429,7 @@ F 3 "" H 5150 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 2250 4950 2250
+	2650 2250 4650 2250
 $Comp
 L GND #PWR014
 U 1 1 5558FBEC
@@ -537,15 +533,15 @@ Wire Wire Line
 	2550 4800 3900 4800
 NoConn ~ 5700 4500
 NoConn ~ 3900 4300
-Text Label 4300 2250 0    60   ~ 0
+Text Label 3100 2250 0    60   ~ 0
 PIR-Repeat
 Wire Wire Line
-	2550 2150 4950 2150
+	2550 2150 4500 2150
 Wire Wire Line
 	2650 2250 2650 4700
 Wire Wire Line
 	2550 2150 2550 4800
-Text Label 4100 2150 0    60   ~ 0
+Text Label 3250 2150 0    60   ~ 0
 PIR-Motion
 Wire Wire Line
 	6400 4700 6400 2550
@@ -618,7 +614,7 @@ U 1 1 556A552C
 P 8250 1700
 F 0 "NT1" H 8200 1550 60  0001 C CNN
 F 1 "Net-Tie-2" H 8200 1800 60  0001 C CNN
-F 2 "" H 8250 1700 60  0000 C CNN
+F 2 "Oddities:NetTie-I_Connected_SMD" H 8250 1700 60  0001 C CNN
 F 3 "" H 8250 1700 60  0000 C CNN
 	1    8250 1700
 	0    1    1    0   
@@ -629,7 +625,7 @@ U 1 1 556A55D0
 P 8250 3650
 F 0 "NT2" H 8200 3500 60  0001 C CNN
 F 1 "Net-Tie-2" H 8200 3750 60  0001 C CNN
-F 2 "" H 8250 3650 60  0000 C CNN
+F 2 "Oddities:NetTie-I_Connected_SMD" H 8250 3650 60  0001 C CNN
 F 3 "" H 8250 3650 60  0000 C CNN
 	1    8250 3650
 	0    1    1    0   
@@ -672,4 +668,32 @@ Text Label 8550 3350 0    60   ~ 0
 SMD_GND
 Text Notes 7700 1000 0    60   ~ 0
 SMD_* nets are convenience nets used during PCB layout.
+Wire Wire Line
+	5700 4200 6550 4200
+Wire Wire Line
+	6550 4200 6550 4300
+Wire Wire Line
+	6550 4300 7250 4300
+Wire Wire Line
+	5700 4300 6450 4300
+Wire Wire Line
+	6450 4300 6450 4250
+Wire Wire Line
+	6450 4250 6650 4250
+Wire Wire Line
+	6650 4250 6650 4200
+Wire Wire Line
+	6650 4200 7250 4200
+Wire Wire Line
+	4950 2150 4650 2150
+Wire Wire Line
+	4650 2150 4650 2250
+Wire Wire Line
+	4500 2150 4500 2200
+Wire Wire Line
+	4500 2200 4750 2200
+Wire Wire Line
+	4750 2200 4750 2250
+Wire Wire Line
+	4750 2250 4950 2250
 $EndSCHEMATC
