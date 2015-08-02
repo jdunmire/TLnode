@@ -66,7 +66,15 @@ P 1750 1450
 F 0 "BT1" H 1850 1500 50  0000 L CNN
 F 1 "3v" H 1850 1400 50  0000 L CNN
 F 2 "Battery_Holders:BA2AAPC" V 1750 1490 60  0001 C CNN
-F 3 "" V 1750 1490 60  0000 C CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BA2AAPC-datasheet.pdf" H 1750 1490 60  0001 C CNN
+F 4 "2-AA" H 1750 1450 60  0001 C CNN "Characteristics"
+F 5 "HOLDER 2 CELL AA W/PC PINS" H 1750 1450 60  0001 C CNN "Description"
+F 6 "MPD (Memory Protection Devices)" H 1750 1450 60  0001 C CNN "MFG"
+F 7 "BA2AAPC" H 1750 1450 60  0001 C CNN "MFG P#"
+F 8 "-" H 1750 1450 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 1750 1450 60  0001 C CNN "Supplier"
+F 10 "BA2AAPC-ND" H 1750 1450 60  0001 C CNN "PN"
+F 11 "-" H 1750 1450 60  0001 C CNN "Notes"
 	1    1750 1450
 	1    0    0    -1  
 $EndComp
@@ -99,7 +107,15 @@ P 2850 3350
 F 0 "R1" V 2930 3350 50  0000 C CNN
 F 1 "100" V 2850 3350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 3350 30  0001 C CNN
-F 3 "" H 2850 3350 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g.pdf" H 2850 3350 30  0001 C CNN
+F 4 "+/-1%, 1/10W" H 2850 3350 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 100 OHM 1% 1/10W 0603" H 2850 3350 60  0001 C CNN "Description"
+F 6 "Rohm" H 2850 3350 60  0001 C CNN "MFG"
+F 7 "MCR03ERTF1000" H 2850 3350 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 2850 3350 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 2850 3350 60  0001 C CNN "Supplier"
+F 10 "RHM100CFCT-ND" H 2850 3350 60  0001 C CNN "PN"
+F 11 "-" H 2850 3350 60  0001 C CNN "Notes"
 	1    2850 3350
 	1    0    0    -1  
 $EndComp
@@ -110,19 +126,16 @@ P 6100 3800
 F 0 "R3" V 6180 3800 50  0000 C CNN
 F 1 "10k" V 6100 3800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6030 3800 30  0001 C CNN
-F 3 "" H 6100 3800 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf" H 6100 3800 30  0001 C CNN
+F 4 "+/-1%, 1/10W" H 6100 3800 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 10K OHM 1% 1/10W 0603" H 6100 3800 60  0001 C CNN "Description"
+F 6 "Rohm" H 6100 3800 60  0001 C CNN "MFG"
+F 7 "MCR03EZPFX1002" H 6100 3800 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 6100 3800 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 6100 3800 60  0001 C CNN "Supplier"
+F 10 "RHM10.0KHCT-ND" H 6100 3800 60  0001 C CNN "PN"
+F 11 "-" H 6100 3800 60  0001 C CNN "Notes"
 	1    6100 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 553B15EE
-P 3250 3350
-F 0 "R2" V 3330 3350 50  0000 C CNN
-F 1 "10k" V 3250 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3180 3350 30  0001 C CNN
-F 3 "" H 3250 3350 30  0000 C CNN
-	1    3250 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -132,7 +145,15 @@ P 3250 3850
 F 0 "C1" H 3275 3950 50  0000 L CNN
 F 1 "0.1 uF" H 3275 3750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3288 3700 30  0001 C CNN
-F 3 "" H 3250 3850 60  0000 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3250 3850 60  0001 C CNN
+F 4 "+/-10%, 16V" H 3250 3850 60  0001 C CNN "Characteristics"
+F 5 "CAP CER 0.1UF 16V 10% X7R 0603" H 3250 3850 60  0001 C CNN "Description"
+F 6 "Murata Electronics" H 3250 3850 60  0001 C CNN "MFG"
+F 7 "GRM188R71C104KA01D" H 3250 3850 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 3250 3850 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 3250 3850 60  0001 C CNN "Supplier"
+F 10 "490-1532-1-ND" H 3250 3850 60  0001 C CNN "PN"
+F 11 "-" H 3250 3850 60  0001 C CNN "Notes"
 	1    3250 3850
 	1    0    0    -1  
 $EndComp
@@ -154,7 +175,15 @@ P 6100 5200
 F 0 "R4" V 6180 5200 50  0000 C CNN
 F 1 "1k" V 6100 5200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6030 5200 30  0001 C CNN
-F 3 "" H 6100 5200 30  0000 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf" H 6100 5200 30  0001 C CNN
+F 4 "+/-1%, 1/10W" H 6100 5200 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 1K OHM 1% 1/10W 0603" H 6100 5200 60  0001 C CNN "Description"
+F 6 "Rohm" H 6100 5200 60  0001 C CNN "MFG"
+F 7 "MCR03EZPFX1001" H 6100 5200 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 6100 5200 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 6100 5200 60  0001 C CNN "Supplier"
+F 10 "RHM1.00KHCT-ND" H 6100 5200 60  0001 C CNN "PN"
+F 11 "-" H 6100 5200 60  0001 C CNN "Notes"
 	1    6100 5200
 	1    0    0    -1  
 $EndComp
@@ -220,7 +249,15 @@ P 3000 5050
 F 0 "SW1" H 3150 5160 50  0000 C CNN
 F 1 "Reset" H 3000 4970 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_E-Switch_TL3302BF180QG" H 3000 5050 60  0001 C CNN
-F 3 "" H 3000 5050 60  0000 C CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/159/TL3302.pdf" H 3000 5050 60  0001 C CNN
+F 4 "Off-Mom" H 3000 5050 60  0001 C CNN "Characteristics"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 12V" H 3000 5050 60  0001 C CNN "Description"
+F 6 "E-Switch" H 3000 5050 60  0001 C CNN "MFG"
+F 7 "TL3302BF180QG/TR" H 3000 5050 60  0001 C CNN "MFG P#"
+F 8 "http://spec_sheets.e-switch.com/specs/P010523.pdf" H 3000 5050 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 3000 5050 60  0001 C CNN "Supplier"
+F 10 "EG2529CT-ND" H 3000 5050 60  0001 C CNN "PN"
+F 11 "-" H 3000 5050 60  0001 C CNN "Notes"
 	1    3000 5050
 	1    0    0    -1  
 $EndComp
@@ -255,6 +292,307 @@ F 1 "Serial I/O" V 7550 4300 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 7450 4300 60  0001 C CNN
 F 3 "" H 7450 4300 60  0000 C CNN
 	1    7450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 554AF659
+P 7200 4600
+F 0 "#PWR010" H 7200 4350 50  0001 C CNN
+F 1 "GND" H 7200 4450 50  0000 C CNN
+F 2 "" H 7200 4600 60  0000 C CNN
+F 3 "" H 7200 4600 60  0000 C CNN
+	1    7200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 554AF677
+P 6500 4850
+F 0 "#PWR011" H 6500 4600 50  0001 C CNN
+F 1 "GND" H 6500 4700 50  0000 C CNN
+F 2 "" H 6500 4850 60  0000 C CNN
+F 3 "" H 6500 4850 60  0000 C CNN
+	1    6500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DS18B20 U2
+U 1 1 55558175
+P 8200 5300
+F 0 "U2" H 8400 5650 50  0000 C CNN
+F 1 "DS18B20" H 8200 5350 50  0000 C CNN
+F 2 "Housings_TO-92:TO-92_Inline_Narrow_Oval" H 8450 5000 50  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS18B20-PAR.pdf" H 7850 5000 50  0001 C CNN
+F 4 "Sensor, Temperature" H 8200 5300 60  0001 C CNN "Characteristics"
+F 5 "SENSOR TEMPERATURE 1-WIRE TO92-3" H 8200 5300 60  0001 C CNN "Description"
+F 6 "Maxim Integrated" H 8200 5300 60  0001 C CNN "MFG"
+F 7 "DS18B20+PAR" H 8200 5300 60  0001 C CNN "MFG P#"
+F 8 "TO-92-3" H 8200 5300 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 8200 5300 60  0001 C CNN "Supplier"
+F 10 "DS18B20+PAR-ND" H 8200 5300 60  0001 C CNN "PN"
+F 11 "-" H 8200 5300 60  0001 C CNN "Notes"
+	1    8200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 555584B2
+P 8200 6050
+F 0 "#PWR012" H 8200 5800 50  0001 C CNN
+F 1 "GND" H 8200 5900 50  0000 C CNN
+F 2 "" H 8200 6050 60  0000 C CNN
+F 3 "" H 8200 6050 60  0000 C CNN
+	1    8200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR013
+U 1 1 5555854B
+P 8200 4500
+F 0 "#PWR013" H 8200 4350 50  0001 C CNN
+F 1 "VCC" H 8200 4650 50  0000 C CNN
+F 2 "" H 8200 4500 60  0000 C CNN
+F 3 "" H 8200 4500 60  0000 C CNN
+	1    8200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ISL29035 U3
+U 1 1 5558F488
+P 8250 2650
+F 0 "U3" H 8600 3000 50  0000 C CNN
+F 1 "ISL29035" H 8250 2650 50  0000 C CNN
+F 2 "sensorNode:DFN-6_1.5x1.6mm_Pitch0.5mm" H 7550 2200 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/fn83/fn8371.pdf" H 7550 2100 50  0001 C CNN
+F 4 "Sensor, Ambiant Light" H 8250 2650 60  0001 C CNN "Characteristics"
+F 5 "IC PROXIMITY SENSOR AMB LT 6ODFN" H 8250 2650 60  0001 C CNN "Description"
+F 6 "Intersil" H 8250 2650 60  0001 C CNN "MFG"
+F 7 "ISL29035IROZ-T7" H 8250 2650 60  0001 C CNN "MFG P#"
+F 8 "6-ODFN (1.5x1.6)" H 8250 2650 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 8250 2650 60  0001 C CNN "Supplier"
+F 10 "ISL29035IROZ-T7CT-ND" H 8250 2650 60  0001 C CNN "PN"
+F 11 "-" H 8250 2650 60  0001 C CNN "Notes"
+	1    8250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P1
+U 1 1 5558F881
+P 5150 2200
+F 0 "P1" V 5150 2450 50  0000 C CNN
+F 1 "PIR" V 5250 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 5150 2200 60  0001 C CNN
+F 3 "" H 5150 2200 60  0000 C CNN
+	1    5150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5558FBEC
+P 4850 2500
+F 0 "#PWR014" H 4850 2250 50  0001 C CNN
+F 1 "GND" H 4850 2350 50  0000 C CNN
+F 2 "" H 4850 2500 60  0000 C CNN
+F 3 "" H 4850 2500 60  0000 C CNN
+	1    4850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR015
+U 1 1 5558FC1A
+P 4850 1850
+F 0 "#PWR015" H 4850 1700 50  0001 C CNN
+F 1 "VCC" H 4850 2000 50  0000 C CNN
+F 2 "" H 4850 1850 60  0000 C CNN
+F 3 "" H 4850 1850 60  0000 C CNN
+	1    4850 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9050 2650
+$Comp
+L R R5
+U 1 1 55590353
+P 6850 2200
+F 0 "R5" V 6930 2200 50  0000 C CNN
+F 1 "4.7k" V 6850 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6780 2200 30  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g.pdf" H 6850 2200 30  0001 C CNN
+F 4 "+/-1%, 1/10W" H 6850 2200 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 6850 2200 60  0001 C CNN "Description"
+F 6 "Rohm Semiconductor" H 6850 2200 60  0001 C CNN "MFG"
+F 7 "MCR03ERTF4701" H 6850 2200 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 6850 2200 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 6850 2200 60  0001 C CNN "Supplier"
+F 10 "RHM4.70KCFCT-ND" H 6850 2200 60  0001 C CNN "PN"
+F 11 "-" H 6850 2200 60  0001 C CNN "Notes"
+	1    6850 2200
+	1    0    0    -1  
+$EndComp
+Text Label 6000 4700 0    60   ~ 0
+I2C_SDA
+Text Label 3050 4600 0    60   ~ 0
+I2C_SCL
+NoConn ~ 5700 4500
+NoConn ~ 3900 4300
+Text Label 3100 2250 0    60   ~ 0
+PIR-Repeat
+Text Label 3250 2150 0    60   ~ 0
+PIR-Motion
+$Comp
+L VCC #PWR016
+U 1 1 556A2D43
+P 7050 1650
+F 0 "#PWR016" H 7050 1500 50  0001 C CNN
+F 1 "VCC" H 7050 1800 50  0000 C CNN
+F 2 "" H 7050 1650 60  0000 C CNN
+F 3 "" H 7050 1650 60  0000 C CNN
+	1    7050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 556A4E30
+P 8250 3950
+F 0 "#PWR017" H 8250 3700 50  0001 C CNN
+F 1 "GND" H 8250 3800 50  0000 C CNN
+F 2 "" H 8250 3950 60  0000 C CNN
+F 3 "" H 8250 3950 60  0000 C CNN
+	1    8250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR018
+U 1 1 556A5084
+P 8250 1350
+F 0 "#PWR018" H 8250 1200 50  0001 C CNN
+F 1 "VCC" H 8250 1500 50  0000 C CNN
+F 2 "" H 8250 1350 60  0000 C CNN
+F 3 "" H 8250 1350 60  0000 C CNN
+	1    8250 1350
+	1    0    0    -1  
+$EndComp
+Text Label 8500 1950 0    60   ~ 0
+SMD_VDD
+$Comp
+L PWR_FLAG #FLG019
+U 1 1 556A5A90
+P 7950 1900
+F 0 "#FLG019" H 7950 1995 50  0001 C CNN
+F 1 "PWR_FLAG" H 7950 2080 50  0000 C CNN
+F 2 "" H 7950 1900 60  0000 C CNN
+F 3 "" H 7950 1900 60  0000 C CNN
+	1    7950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG020
+U 1 1 556A5ADA
+P 7950 3250
+F 0 "#FLG020" H 7950 3345 50  0001 C CNN
+F 1 "PWR_FLAG" H 7950 3430 50  0000 C CNN
+F 2 "" H 7950 3250 60  0000 C CNN
+F 3 "" H 7950 3250 60  0000 C CNN
+	1    7950 3250
+	1    0    0    -1  
+$EndComp
+Text Label 8550 3350 0    60   ~ 0
+SMD_GND
+Text Notes 7700 1000 0    60   ~ 0
+SMD_* nets are convenience nets used during PCB layout.
+$Comp
+L R R6
+U 1 1 55B84C58
+P 7050 2200
+F 0 "R6" V 7130 2200 50  0000 C CNN
+F 1 "4.7k" V 7050 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 2200 30  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g.pdf" H 7050 2200 30  0001 C CNN
+F 4 "+/-1%, 1/10W" H 7050 2200 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 7050 2200 60  0001 C CNN "Description"
+F 6 "Rohm Semiconductor" H 7050 2200 60  0001 C CNN "MFG"
+F 7 "MCR03ERTF4701" H 7050 2200 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 7050 2200 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 7050 2200 60  0001 C CNN "Supplier"
+F 10 "RHM4.70KCFCT-ND" H 7050 2200 60  0001 C CNN "PN"
+F 11 "-" H 7050 2200 60  0001 C CNN "Notes"
+	1    7050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 55B84DA8
+P 7250 2200
+F 0 "R7" V 7330 2200 50  0000 C CNN
+F 1 "4.7k" V 7250 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7180 2200 30  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g.pdf" H 7250 2200 30  0001 C CNN
+F 4 "+/-1%, 1/10W" H 7250 2200 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 7250 2200 60  0001 C CNN "Description"
+F 6 "Rohm Semiconductor" H 7250 2200 60  0001 C CNN "MFG"
+F 7 "MCR03ERTF4701" H 7250 2200 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 7250 2200 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 7250 2200 60  0001 C CNN "Supplier"
+F 10 "RHM4.70KCFCT-ND" H 7250 2200 60  0001 C CNN "PN"
+F 11 "-" H 7250 2200 60  0001 C CNN "Notes"
+	1    7250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 55B85253
+P 7400 5050
+F 0 "R8" V 7480 5050 50  0000 C CNN
+F 1 "4.7k" V 7400 5050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 5050 30  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g.pdf" H 7400 5050 30  0001 C CNN
+F 4 "+/-1%, 1/10W" H 7400 5050 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 4.7K OHM 1% 1/10W 0603" H 7400 5050 60  0001 C CNN "Description"
+F 6 "Rohm Semiconductor" H 7400 5050 60  0001 C CNN "MFG"
+F 7 "MCR03ERTF4701" H 7400 5050 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 7400 5050 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 7400 5050 60  0001 C CNN "Supplier"
+F 10 "RHM4.70KCFCT-ND" H 7400 5050 60  0001 C CNN "PN"
+F 11 "-" H 7400 5050 60  0001 C CNN "Notes"
+	1    7400 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 55BD7234
+P 9600 2100
+F 0 "C2" H 9625 2200 50  0000 L CNN
+F 1 "0.1 uF" H 9625 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9638 1950 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9600 2100 60  0001 C CNN
+F 4 "+/-10%, 16V" H 9600 2100 60  0001 C CNN "Characteristics"
+F 5 "CAP CER 0.1UF 16V 10% X7R 0603" H 9600 2100 60  0001 C CNN "Description"
+F 6 "Murata Electronics" H 9600 2100 60  0001 C CNN "MFG"
+F 7 "GRM188R71C104KA01D" H 9600 2100 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 9600 2100 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 9600 2100 60  0001 C CNN "Supplier"
+F 10 "490-1532-1-ND" H 9600 2100 60  0001 C CNN "PN"
+F 11 "-" H 9600 2100 60  0001 C CNN "Notes"
+	1    9600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 55BD848F
+P 3250 3350
+F 0 "R2" V 3330 3350 50  0000 C CNN
+F 1 "10k" V 3250 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3180 3350 30  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf" H 3250 3350 30  0001 C CNN
+F 4 "+/-1%, 1/10W" H 3250 3350 60  0001 C CNN "Characteristics"
+F 5 "RES SMD 10K OHM 1% 1/10W 0603" H 3250 3350 60  0001 C CNN "Description"
+F 6 "Rohm" H 3250 3350 60  0001 C CNN "MFG"
+F 7 "MCR03EZPFX1002" H 3250 3350 60  0001 C CNN "MFG P#"
+F 8 "0603 (1608 Metric)" H 3250 3350 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 3250 3350 60  0001 C CNN "Supplier"
+F 10 "RHM10.0KHCT-ND" H 3250 3350 60  0001 C CNN "PN"
+F 11 "-" H 3250 3350 60  0001 C CNN "Notes"
+	1    3250 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -319,28 +657,6 @@ Wire Wire Line
 Connection ~ 4800 3550
 Connection ~ 6100 4600
 Connection ~ 6100 5500
-$Comp
-L GND #PWR010
-U 1 1 554AF659
-P 7200 4600
-F 0 "#PWR010" H 7200 4350 50  0001 C CNN
-F 1 "GND" H 7200 4450 50  0000 C CNN
-F 2 "" H 7200 4600 60  0000 C CNN
-F 3 "" H 7200 4600 60  0000 C CNN
-	1    7200 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR011
-U 1 1 554AF677
-P 6500 4850
-F 0 "#PWR011" H 6500 4600 50  0001 C CNN
-F 1 "GND" H 6500 4700 50  0000 C CNN
-F 2 "" H 6500 4850 60  0000 C CNN
-F 3 "" H 6500 4850 60  0000 C CNN
-	1    6500 4850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 4400 7200 4400
 Wire Wire Line
@@ -352,50 +668,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 4500 3500 4500
 Connection ~ 3500 4500
-$Comp
-L DS18B20 U2
-U 1 1 55558175
-P 8200 5300
-F 0 "U2" H 8400 5650 50  0000 C CNN
-F 1 "DS18B20" H 8200 5350 50  0000 C CNN
-F 2 "Housings_TO-92:TO-92_Inline_Narrow_Oval" H 8450 5000 50  0001 C CNN
-F 3 "DOCUMENTATION" H 7850 5000 50  0001 C CNN
-	1    8200 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR012
-U 1 1 555584B2
-P 8200 6050
-F 0 "#PWR012" H 8200 5800 50  0001 C CNN
-F 1 "GND" H 8200 5900 50  0000 C CNN
-F 2 "" H 8200 6050 60  0000 C CNN
-F 3 "" H 8200 6050 60  0000 C CNN
-	1    8200 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R8
-U 1 1 555584E5
-P 7400 5050
-F 0 "R8" V 7480 5050 50  0000 C CNN
-F 1 "4.7k" V 7400 5050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 5050 30  0001 C CNN
-F 3 "" H 7400 5050 30  0000 C CNN
-	1    7400 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR013
-U 1 1 5555854B
-P 8200 4500
-F 0 "#PWR013" H 8200 4350 50  0001 C CNN
-F 1 "VCC" H 8200 4650 50  0000 C CNN
-F 2 "" H 8200 4500 60  0000 C CNN
-F 3 "" H 8200 4500 60  0000 C CNN
-	1    8200 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 4900 7400 4600
 Wire Wire Line
@@ -406,52 +678,8 @@ Wire Wire Line
 Wire Wire Line
 	8200 6050 8200 5850
 Connection ~ 7400 5300
-$Comp
-L ISL29035 U3
-U 1 1 5558F488
-P 8250 2650
-F 0 "U3" H 8600 3000 50  0000 C CNN
-F 1 "ISL29035" H 8250 2650 50  0000 C CNN
-F 2 "sensorNode:DFN-6_1.5x1.6mm_Pitch0.5mm" H 7550 2200 50  0001 C CNN
-F 3 "" H 7550 2100 50  0001 C CNN
-	1    8250 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X04 P1
-U 1 1 5558F881
-P 5150 2200
-F 0 "P1" V 5150 2450 50  0000 C CNN
-F 1 "PIR" V 5250 2200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 5150 2200 60  0001 C CNN
-F 3 "" H 5150 2200 60  0000 C CNN
-	1    5150 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 2250 4650 2250
-$Comp
-L GND #PWR014
-U 1 1 5558FBEC
-P 4850 2500
-F 0 "#PWR014" H 4850 2250 50  0001 C CNN
-F 1 "GND" H 4850 2350 50  0000 C CNN
-F 2 "" H 4850 2500 60  0000 C CNN
-F 3 "" H 4850 2500 60  0000 C CNN
-	1    4850 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR015
-U 1 1 5558FC1A
-P 4850 1850
-F 0 "#PWR015" H 4850 1700 50  0001 C CNN
-F 1 "VCC" H 4850 2000 50  0000 C CNN
-F 2 "" H 4850 1850 60  0000 C CNN
-F 3 "" H 4850 1850 60  0000 C CNN
-	1    4850 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 2050 4850 2050
 Wire Wire Line
@@ -460,40 +688,6 @@ Wire Wire Line
 	4850 2500 4850 2350
 Wire Wire Line
 	4850 2350 4950 2350
-NoConn ~ 9050 2650
-$Comp
-L R R7
-U 1 1 55590208
-P 7250 2200
-F 0 "R7" V 7330 2200 50  0000 C CNN
-F 1 "4.7k" V 7250 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7180 2200 30  0001 C CNN
-F 3 "" H 7250 2200 30  0000 C CNN
-	1    7250 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R6
-U 1 1 55590319
-P 7050 2200
-F 0 "R6" V 7130 2200 50  0000 C CNN
-F 1 "4.7k" V 7050 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 2200 30  0001 C CNN
-F 3 "" H 7050 2200 30  0000 C CNN
-	1    7050 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 55590353
-P 6850 2200
-F 0 "R5" V 6930 2200 50  0000 C CNN
-F 1 "4.7k" V 6850 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6780 2200 30  0001 C CNN
-F 3 "" H 6850 2200 30  0000 C CNN
-	1    6850 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 2350 7250 2750
 Wire Wire Line
@@ -513,14 +707,10 @@ Wire Wire Line
 Connection ~ 7250 1950
 Wire Wire Line
 	5700 4700 6400 4700
-Text Label 6000 4700 0    60   ~ 0
-I2C_SDA
 Connection ~ 6850 2550
 Connection ~ 7050 2650
 Wire Wire Line
 	2400 4600 3900 4600
-Text Label 3050 4600 0    60   ~ 0
-I2C_SCL
 Wire Wire Line
 	7000 5300 7550 5300
 Wire Wire Line
@@ -531,18 +721,12 @@ Wire Wire Line
 	2650 4700 3900 4700
 Wire Wire Line
 	2550 4800 3900 4800
-NoConn ~ 5700 4500
-NoConn ~ 3900 4300
-Text Label 3100 2250 0    60   ~ 0
-PIR-Repeat
 Wire Wire Line
 	2550 2150 4500 2150
 Wire Wire Line
 	2650 2250 2650 4700
 Wire Wire Line
 	2550 2150 2550 4800
-Text Label 3250 2150 0    60   ~ 0
-PIR-Motion
 Wire Wire Line
 	6400 4700 6400 2550
 Wire Wire Line
@@ -553,83 +737,15 @@ Wire Wire Line
 	6400 2550 7450 2550
 Wire Wire Line
 	2400 2650 7450 2650
-$Comp
-L C C2
-U 1 1 55612960
-P 9600 2100
-F 0 "C2" H 9625 2200 50  0000 L CNN
-F 1 "0.1 uF" H 9625 2000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9638 1950 30  0001 C CNN
-F 3 "" H 9600 2100 60  0000 C CNN
-	1    9600 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 3350 9600 2250
 Wire Wire Line
 	7950 3350 9600 3350
 Connection ~ 8250 3350
-$Comp
-L VCC #PWR016
-U 1 1 556A2D43
-P 7050 1650
-F 0 "#PWR016" H 7050 1500 50  0001 C CNN
-F 1 "VCC" H 7050 1800 50  0000 C CNN
-F 2 "" H 7050 1650 60  0000 C CNN
-F 3 "" H 7050 1650 60  0000 C CNN
-	1    7050 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 1950 7250 1950
 Wire Wire Line
 	7950 1950 9600 1950
-$Comp
-L GND #PWR017
-U 1 1 556A4E30
-P 8250 3950
-F 0 "#PWR017" H 8250 3700 50  0001 C CNN
-F 1 "GND" H 8250 3800 50  0000 C CNN
-F 2 "" H 8250 3950 60  0000 C CNN
-F 3 "" H 8250 3950 60  0000 C CNN
-	1    8250 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR018
-U 1 1 556A5084
-P 8250 1350
-F 0 "#PWR018" H 8250 1200 50  0001 C CNN
-F 1 "VCC" H 8250 1500 50  0000 C CNN
-F 2 "" H 8250 1350 60  0000 C CNN
-F 3 "" H 8250 1350 60  0000 C CNN
-	1    8250 1350
-	1    0    0    -1  
-$EndComp
-Text Label 8500 1950 0    60   ~ 0
-SMD_VDD
-$Comp
-L Net-Tie-2 NT1
-U 1 1 556A552C
-P 8250 1700
-F 0 "NT1" H 8200 1550 60  0001 C CNN
-F 1 "Net-Tie-2" H 8200 1800 60  0001 C CNN
-F 2 "Oddities:NetTie-I_Connected_SMD" H 8250 1700 60  0001 C CNN
-F 3 "" H 8250 1700 60  0000 C CNN
-	1    8250 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Net-Tie-2 NT2
-U 1 1 556A55D0
-P 8250 3650
-F 0 "NT2" H 8200 3500 60  0001 C CNN
-F 1 "Net-Tie-2" H 8200 3750 60  0001 C CNN
-F 2 "Oddities:NetTie-I_Connected_SMD" H 8250 3650 60  0001 C CNN
-F 3 "" H 8250 3650 60  0000 C CNN
-	1    8250 3650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8250 3250 8250 3400
 Wire Wire Line
@@ -638,36 +754,10 @@ Wire Wire Line
 	8250 1950 8250 2050
 Wire Wire Line
 	8250 1350 8250 1450
-$Comp
-L PWR_FLAG #FLG019
-U 1 1 556A5A90
-P 7950 1900
-F 0 "#FLG019" H 7950 1995 50  0001 C CNN
-F 1 "PWR_FLAG" H 7950 2080 50  0000 C CNN
-F 2 "" H 7950 1900 60  0000 C CNN
-F 3 "" H 7950 1900 60  0000 C CNN
-	1    7950 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG020
-U 1 1 556A5ADA
-P 7950 3250
-F 0 "#FLG020" H 7950 3345 50  0001 C CNN
-F 1 "PWR_FLAG" H 7950 3430 50  0000 C CNN
-F 2 "" H 7950 3250 60  0000 C CNN
-F 3 "" H 7950 3250 60  0000 C CNN
-	1    7950 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 1900 7950 1950
 Wire Wire Line
 	7950 3250 7950 3350
-Text Label 8550 3350 0    60   ~ 0
-SMD_GND
-Text Notes 7700 1000 0    60   ~ 0
-SMD_* nets are convenience nets used during PCB layout.
 Wire Wire Line
 	5700 4200 6550 4200
 Wire Wire Line
@@ -696,4 +786,56 @@ Wire Wire Line
 	4750 2200 4750 2250
 Wire Wire Line
 	4750 2250 4950 2250
+$Comp
+L Net-Tie-2 NT2
+U 1 1 556A55D0
+P 8250 3650
+F 0 "NT2" H 8200 3500 60  0001 C CNN
+F 1 "Net-Tie-2" H 8200 3750 60  0001 C CNN
+F 2 "Oddities:NetTie-I_Connected_SMD" H 8250 3650 60  0001 C CNN
+F 3 "" H 8250 3650 60  0000 C CNN
+F 4 "-" H 8250 3650 60  0001 C CNN "Characteristics"
+F 5 "-" H 8250 3650 60  0001 C CNN "Description"
+F 6 "-" H 8250 3650 60  0001 C CNN "MFG"
+F 7 "-" H 8250 3650 60  0001 C CNN "MFG P#"
+F 8 "-" H 8250 3650 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 8250 3650 60  0001 C CNN "Supplier"
+F 10 "-" H 8250 3650 60  0001 C CNN "PN"
+F 11 "-" H 8250 3650 60  0001 C CNN "Notes"
+	1    8250 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Net-Tie-2 NT1
+U 1 1 556A552C
+P 8250 1700
+F 0 "NT1" H 8200 1550 60  0001 C CNN
+F 1 "Net-Tie-2" H 8200 1800 60  0001 C CNN
+F 2 "Oddities:NetTie-I_Connected_SMD" H 8250 1700 60  0001 C CNN
+F 3 "" H 8250 1700 60  0000 C CNN
+F 4 "-" H 8250 1700 60  0001 C CNN "Characteristics"
+F 5 "-" H 8250 1700 60  0001 C CNN "Description"
+F 6 "-" H 8250 1700 60  0001 C CNN "MFG"
+F 7 "-" H 8250 1700 60  0001 C CNN "MFG P#"
+F 8 "-" H 8250 1700 60  0001 C CNN "Pkg"
+F 9 "Digikey" H 8250 1700 60  0001 C CNN "Supplier"
+F 10 "-" H 8250 1700 60  0001 C CNN "PN"
+F 11 "-" H 8250 1700 60  0001 C CNN "Notes"
+	1    8250 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG021
+U 1 1 55BDABE3
+P 1500 1650
+F 0 "#FLG021" H 1500 1745 50  0001 C CNN
+F 1 "PWR_FLAG" H 1500 1830 50  0000 C CNN
+F 2 "" H 1500 1650 60  0000 C CNN
+F 3 "" H 1500 1650 60  0000 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1650 1750 1650
+Connection ~ 1750 1650
 $EndSCHEMATC
