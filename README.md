@@ -1,11 +1,11 @@
 Temperature and Light Sensor Node
 =================================
 This a [KiCad](http://kicad-pcb.org/) design. The node measures
-temperature and light levels. It is battery powered and used the
+temperature and light levels. It is battery powered and uses the
 ESP-8266 module for networking.
 
 Additional information about this node can be found at the 
-[Sensor Nodes](sensornodeinfo.rockingdlabs.com) website.
+[Sensor Nodes](http://sensornodeinfo.rockingdlabs.com) website.
 
 
 Copyright Jerry Dunmire 2015.
