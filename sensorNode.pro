@@ -1,4 +1,4 @@
-update=Sat 30 May 2015 03:14:19 PM PDT
+update=Sun 16 Aug 2015 12:16:25 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,16 +31,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.127
 BoardOutlineThickness=0.127
 ModuleOutlineThickness=0.127
-[schematic_editor]
-version=1
-PageLayoutDescrFile=rockingdlabs_letter_with_logo.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [general]
 version=1
 [eeschema]
@@ -81,3 +71,13 @@ LibName31=DS18B20
 LibName32=ISL29035
 LibName33=DS7505
 LibName34=net-tie
+[schematic_editor]
+version=1
+PageLayoutDescrFile=rockingdlabs_letter_with_logo.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

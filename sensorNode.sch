@@ -41,7 +41,7 @@ encoding utf-8
 Sheet 1 1
 Title "Sensor Node"
 Date ""
-Rev ""
+Rev "As Built 2015/08"
 Comp "RockingD Labs"
 Comment1 ""
 Comment2 ""
