@@ -1,4 +1,4 @@
-update=Sat 23 May 2015 05:26:27 PM PDT
+update=Sun 16 Aug 2015 12:16:25 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -70,6 +70,7 @@ LibName30=kicad-ESP8266/ESP8266
 LibName31=DS18B20
 LibName32=ISL29035
 LibName33=DS7505
+LibName34=net-tie
 [schematic_editor]
 version=1
 PageLayoutDescrFile=rockingdlabs_letter_with_logo.kicad_wks
